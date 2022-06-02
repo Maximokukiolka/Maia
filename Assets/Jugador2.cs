@@ -25,11 +25,11 @@ public class Jugador2 : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.Translate(movementSpeed, 0, 0);
+            transform.Translate(-movementSpeed, 0, 0);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.Translate(-movementSpeed, 0, 0);
+            transform.Translate(movementSpeed, 0, 0);
         }
     }
 }
